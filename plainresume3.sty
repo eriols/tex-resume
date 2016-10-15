@@ -4,11 +4,10 @@
 \NeedsTeXFormat{LaTeX2e}[1996/06/01]
 \ProvidesPackage{plainresume3}
 \usepackage{hyperref}
-\hypersetup{pdftitle={Dan Luu's Resume},
-pdfauthor={Dan Luu},
-%pdfsubject={Research Internship Resume},
+\hypersetup{pdftitle={Erik Olsson's Resume},
+pdfauthor={Erik Olsson},
 pdfsubject={Full-time Engineering Resume},
-pdfcreator={Dan's Resume script}}
+pdfcreator={Erik's Resume script}}
 \usepackage{url}
 \usepackage{amssymb}
 \usepackage{calc}
@@ -64,7 +63,7 @@ pdfcreator={Dan's Resume script}}
 \setlength{\oddsidemargin}{0pt}
 \setlength{\evensidemargin}{0pt}
 
-% set textwidth 
+% set textwidth
 \setlength{\textwidth}{\paperwidth}
 \addtolength{\textwidth}{-\hoffsetleft}
 \addtolength{\textwidth}{-\hoffsetright}
@@ -113,18 +112,6 @@ pdfcreator={Dan's Resume script}}
 \newcommand{\homepage}[1]{\def\TitleURL{#1}}
 \newcommand{\phone}[1]{\def\TitlePhone{#1}}
 \newcommand{\fax}[1]{\def\TitleFax{#1}}
-
-%\renewcommand{\maketitle}{%
-%\begin{center}%
-%  {{\TitleAddress}\\ 
-%  {{Tel:} \TitlePhone} \makebox[6mm][c]{\raisebox{0.1em}[0pt]{$\bullet$}}
-%   {{Fax:} \TitleFax} \\
-%   {{Email:} \href{mailto:\TitleEmail}{\TitleEmail}} \makebox[6mm][c]{\raisebox{0.1em}[0pt]{$\bullet$}}
-%   {{Homepage:} {\TitleURL}}\\
-%  }
-%  {\rule{\linewidth}{0.2mm}} %
-%\end{center}%
-%}
 
 \renewcommand{\section}{%
     \@startsection {section}{1}{0pt}{-8pt plus -3pt minus -1pt}
@@ -216,4 +203,3 @@ pdfcreator={Dan's Resume script}}
 \rfoot[\fancyplain{}{}]       {\fancyplain{}{}}
 
 \flushbottom
-
